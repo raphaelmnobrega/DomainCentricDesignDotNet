@@ -14,5 +14,6 @@ namespace ProjetoDDD.Domain.Interfaces.Repository
         List<Cliente> ObtemTodos();
         void AtualizaCliente(Cliente cliente);
         void RemoveCliente(int id);
+        void DefinirClienteVip();
     }
 }

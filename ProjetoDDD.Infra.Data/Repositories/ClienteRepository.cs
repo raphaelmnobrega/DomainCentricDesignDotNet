@@ -1,27 +1,22 @@
-﻿using ProjetoDDD.Domain.Interfaces.Service;
+﻿using ProjetoDDD.Domain.Interfaces.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ProjetoDDD.Domain.Entities;
-using System.Diagnostics;
-using ProjetoDDD.Domain.Interfaces.Repository;
+using ProjetoDDD.Infra.Data.Entity;
 
-namespace ProjetoDDD.Domain.Services.Service
+namespace ProjetoDDD.Infra.Data.Repositories
 {
-    public class ClienteService : IClienteService
+    public class ClienteRepository : IClienteRepository
     {
-        private IClienteRepository repository;
-
-        public ClienteService(IClienteRepository repository)
-        {
-            this.repository = repository;
-        }
+        private BancoDeDados bd = new BancoDeDados();
 
         public void AdicionaCliente(Cliente cliente)
         {
-            this.repository.AdicionaCliente(cliente);
+            bd.Clientes.Add(cliente);
+            bd.SaveChanges();
         }
 
         public void AtualizaCliente(Cliente cliente)
@@ -31,17 +26,12 @@ namespace ProjetoDDD.Domain.Services.Service
 
         public void DefinirClienteVip()
         {
-            Debug.WriteLine("Cliente vip OK!");
-        }
-
-        public void EnviarEmailPromocao()
-        {
             throw new NotImplementedException();
         }
 
         public List<Cliente> ObtemTodos()
         {
-            return this.repository.ObtemTodos();
+            return bd.Clientes.ToList();
         }
 
         public Cliente ObterCliente(int id)

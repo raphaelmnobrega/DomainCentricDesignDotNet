@@ -18,9 +18,34 @@ namespace projetoDDD.Application.Services
             this.service = service;
         }
 
+        public void AdicionaCliente(Cliente cliente)
+        {
+            this.service.AdicionaCliente(cliente);
+        }
+
+        public void AtualizaCliente(Cliente cliente)
+        {
+            throw new NotImplementedException();
+        }
+
         public void DefinirClienteVip()
         {
             this.service.DefinirClienteVip();
+        }
+
+        public List<Cliente> ObtemTodos()
+        {
+            return this.service.ObtemTodos();
+        }
+
+        public Cliente ObterCliente(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void RemoveCliente(int id)
+        {
+            throw new NotImplementedException();
         }
     }
 }

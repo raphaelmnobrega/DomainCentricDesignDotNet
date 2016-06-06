@@ -148,7 +148,6 @@ C:\Users\phederal\Documents\aulaarquitetura\DomainCentricDesignDotNet\ProjetoDDD
 C:\Users\phederal\Documents\aulaarquitetura\DomainCentricDesignDotNet\ProjetoDDD.Presentation\bin\System.Web.WebPages.Razor.dll
 C:\Users\phederal\Documents\aulaarquitetura\DomainCentricDesignDotNet\ProjetoDDD.Presentation\bin\WebActivator.dll
 C:\Users\phederal\Documents\aulaarquitetura\DomainCentricDesignDotNet\ProjetoDDD.Presentation\bin\WebGrease.dll
-C:\Users\phederal\Documents\aulaarquitetura\DomainCentricDesignDotNet\ProjetoDDD.Presentation\bin\EntityFramework.dll
 C:\Users\phederal\Documents\aulaarquitetura\DomainCentricDesignDotNet\ProjetoDDD.Presentation\bin\projetoDDD.Application.pdb
 C:\Users\phederal\Documents\aulaarquitetura\DomainCentricDesignDotNet\ProjetoDDD.Presentation\bin\ProjetoDDD.Domain.pdb
 C:\Users\phederal\Documents\aulaarquitetura\DomainCentricDesignDotNet\ProjetoDDD.Presentation\bin\Microsoft.AI.DependencyCollector.xml
@@ -181,4 +180,7 @@ C:\Users\phederal\Documents\aulaarquitetura\DomainCentricDesignDotNet\ProjetoDDD
 C:\Users\phederal\Documents\aulaarquitetura\DomainCentricDesignDotNet\ProjetoDDD.Presentation\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\phederal\Documents\aulaarquitetura\DomainCentricDesignDotNet\ProjetoDDD.Presentation\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\phederal\Documents\aulaarquitetura\DomainCentricDesignDotNet\ProjetoDDD.Presentation\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\phederal\Documents\aulaarquitetura\DomainCentricDesignDotNet\ProjetoDDD.Presentation\bin\ProjetoDDD.Infra.Data.dll
+C:\Users\phederal\Documents\aulaarquitetura\DomainCentricDesignDotNet\ProjetoDDD.Presentation\bin\EntityFramework.dll
+C:\Users\phederal\Documents\aulaarquitetura\DomainCentricDesignDotNet\ProjetoDDD.Presentation\bin\ProjetoDDD.Infra.Data.pdb
 C:\Users\phederal\Documents\aulaarquitetura\DomainCentricDesignDotNet\ProjetoDDD.Presentation\bin\EntityFramework.xml

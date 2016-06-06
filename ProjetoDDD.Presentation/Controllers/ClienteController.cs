@@ -24,5 +24,10 @@ namespace ProjetoDDD.Presentation.Controllers
             appClienteService.DefinirClienteVip();
             return View();
         }
+
+        public ActionResult ObtemTodos()
+        {
+            return View(appClienteService.ObtemTodos());
+        }
     }
 }

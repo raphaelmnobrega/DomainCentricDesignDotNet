@@ -40,7 +40,6 @@
     <Compile Include="Interfaces\Service\IClienteService.cs" />
     <Compile Include="Interfaces\Service\IPratoService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\Service\ClienteLegalService.cs" />
     <Compile Include="Services\Service\ClienteService.cs" />
     <Compile Include="Services\Service\PratoService.cs" />
   </ItemGroup>

@@ -276,10 +276,10 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Cliente\ObtemTodos.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Cliente\" />
     <Folder Include="Views\Log\" />
   </ItemGroup>
   <ItemGroup>
@@ -298,6 +298,10 @@
     <ProjectReference Include="..\ProjetoDDD.Domain\ProjetoDDD.Domain.csproj">
       <Project>{615102c8-f832-4663-b09b-aa7d6027589d}</Project>
       <Name>ProjetoDDD.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjetoDDD.Infra.Data\ProjetoDDD.Infra.Data.csproj">
+      <Project>{5cd068a8-6782-4342-91eb-7f3669089728}</Project>
+      <Name>ProjetoDDD.Infra.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

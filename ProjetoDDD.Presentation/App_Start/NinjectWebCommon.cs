@@ -14,6 +14,8 @@ namespace ProjetoDDD.Presentation.App_Start
     using projetoDDD.Application.Services;
     using Domain.Interfaces.Service;
     using Domain.Services.Service;
+    using Domain.Interfaces.Repository;
+    using Infra.Data.Repositories;
     public static class NinjectWebCommon 
     {
         private static readonly Bootstrapper bootstrapper = new Bootstrapper();
@@ -59,6 +61,8 @@ namespace ProjetoDDD.Presentation.App_Start
             kernel.Bind<IAppClienteService>().To<AppClienteService>();
 
             kernel.Bind<IClienteService>().To<ClienteService>();
+
+            kernel.Bind<IClienteRepository>().To<ClienteRepository>();
         }        
     }
 }
