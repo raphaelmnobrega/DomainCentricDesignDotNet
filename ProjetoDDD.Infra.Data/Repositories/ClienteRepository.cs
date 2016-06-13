@@ -36,7 +36,7 @@ namespace ProjetoDDD.Infra.Data.Repositories
 
         public Cliente ObterCliente(int id)
         {
-            throw new NotImplementedException();
+            return bd.Clientes.Find(id);
         }
 
         public void RemoveCliente(int id)

@@ -46,7 +46,7 @@ namespace ProjetoDDD.Domain.Services.Service
 
         public Cliente ObterCliente(int id)
         {
-            throw new NotImplementedException();
+            return repository.ObterCliente(id);
         }
 
         public void RemoveCliente(int id)

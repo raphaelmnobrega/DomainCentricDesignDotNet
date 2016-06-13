@@ -29,5 +29,10 @@ namespace ProjetoDDD.Presentation.Controllers
         {
             return View(appClienteService.ObtemTodos());
         }
+
+        public ActionResult ObtemCliente(int id)
+        {
+            return View(appClienteService.ObterCliente(id));
+        }
     }
 }

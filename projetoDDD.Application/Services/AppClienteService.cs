@@ -40,7 +40,7 @@ namespace projetoDDD.Application.Services
 
         public Cliente ObterCliente(int id)
         {
-            throw new NotImplementedException();
+            return service.ObterCliente(id);
         }
 
         public void RemoveCliente(int id)

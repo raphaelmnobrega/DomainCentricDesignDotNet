@@ -10,3 +10,4 @@ C:\Users\phederal\Documents\aulaarquitetura\DomainCentricDesignDotNet\ProjetoDDD
 C:\Users\phederal\Documents\aulaarquitetura\DomainCentricDesignDotNet\ProjetoDDD.Domain\bin\Debug\ProjetoDDD.Domain.pdb
 C:\Users\phederal\Documents\aulaarquitetura\DomainCentricDesignDotNet\ProjetoDDD.Domain\obj\Debug\ProjetoDDD.Domain.dll
 C:\Users\phederal\Documents\aulaarquitetura\DomainCentricDesignDotNet\ProjetoDDD.Domain\obj\Debug\ProjetoDDD.Domain.pdb
+C:\Users\phederal\Documents\aulaarquitetura\DomainCentricDesignDotNet\ProjetoDDD.Domain\obj\Debug\ProjetoDDD.Domain.csprojResolveAssemblyReference.cache
