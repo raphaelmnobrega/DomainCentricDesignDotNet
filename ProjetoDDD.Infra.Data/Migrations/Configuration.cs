@@ -26,6 +26,14 @@ namespace ProjetoDDD.Infra.Data.Migrations
             //      new Person { FullName = "Rowan Miller" }
             //    );
             //
+            
+            context.Fornecedores.AddOrUpdate(
+                f => p.Name,
+                new Fornecedor { Name = "Rio do Peixe"},
+                new Fornecedor { Name = "Safra de ouro"},
+                new Fornecedor { Name = "São Braz"}
+            );
+
         }
     }
 }

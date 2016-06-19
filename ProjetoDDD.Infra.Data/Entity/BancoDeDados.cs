@@ -17,5 +17,7 @@ namespace ProjetoDDD.Infra.Data.Entity
         }
 
         public DbSet<Cliente> Clientes { get; set; }
+        public DbSet<Fornecedor> Fornecedores { get; set; }
+
     }
 }
